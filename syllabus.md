@@ -38,7 +38,7 @@
 | 週次 | 主題 | 時數 | 內容 |
 |:---:|------|:---:|------|
 | 1 | 課程介紹、修課要求與評分方式 | 3h | 生成式 AI 應用系統典型架構：前端、後端、LLM 層、Agent workflow、資料流、系統觀測機制等介紹 |
-| 2-3 | SDLC、需求分析與系統架構設計概念 | 3h | 生成式 AI 專案的 SDLC 設計、撰寫 System Requirement / Use Case、Microservice 高階架構圖規劃、服務邊界與模組切分 |
+| 2-3 | SDLC、需求分析與系統架構設計概念 | 6h | 生成式 AI 專案的 SDLC 設計、撰寫 System Requirement / Use Case、Microservice 高階架構圖規劃、服務邊界與模組切分 |
 
 ---
 
@@ -47,8 +47,8 @@
 | 週次 | 主題 | 時數 | 內容 |
 |:---:|------|:---:|------|
 | 4 | 前端 Web 技術與生成式介面設計、後端架構、微服務設計與 LLM Proxy Gateway | 3h | Next.js / React / Tailwind、gen-AI UI patterns、SSE / WebSocket streaming、API Server（FastAPI / Node.js）、REST / WebSocket / SSE 實作、Microservice 架構核心、GenAI 微服務拆分、LLM Gateway 核心微服務（Routing、Token Logging）|
-| 5 | 事件驅動資料流架構 | 6h | ETL / background tasks、Airflow DAG / Task / Scheduler、Kafka → Airflow → Iceberg 典型資料處理流程、Iceberg Data Lake、Microservice 與 Background Worker 整合 |
-| 6| Invited Talk (Sowork.AI) | 3h | Marketing + AI
+| 5 | Invited Talk (AWS Architect, idanbean艾即思科技) | 3h | AWS EC2 / ECS / Lambda、IAM / S3 / RDS、Kiro 環境、成本估算與 auto scaling、CDN / Cache |
+| 6 | 事件驅動資料流架構 | 3h | ETL / background tasks、Airflow DAG / Task / Scheduler、Kafka → Airflow → Iceberg 典型資料處理流程、Iceberg Data Lake、Microservice 與 Background Worker 整合 |
 | 7 | 校際活動日| 3h | (4/8停課) |
 ---
 
@@ -56,11 +56,10 @@
 
 | 週次 | 主題 | 時數 | 內容 |
 |:---:|------|:---:|------|
-| 8 | CI/CD、MLOps、LLMOps | 3h | GitHub Actions / GitLab CI、Docker 化與環境建置、MLflow / promptfoo、模型行為監控與 Regression Test、Microservice deployment pipeline |
-| 9 | 資料庫系統與向量資料庫 | 3h | Embedding / HNSW / Retrieval、RAG pipeline（chunking → index → rerank）、Retrieval microservice |
-| 10 | Invited Talk (Apache Taipei Funder, 「源來適你」Kafka Team)| 3h | Kafka/Iceberg/Airflow |
-| 11 | Invited Talk (AWS MSP) | 3h | AWS EC2 / ECS / Lambda、IAM / S3 / RDS、Kiro 環境、成本估算與 auto scaling、CDN / Cache |
-
+| 8 | Invited Talk (Sowork.AI) | 3h | Marketing + AI (2026/4/15)
+| 9 | CI/CD、MLOps、LLMOps | 3h | GitHub Actions / GitLab CI、Docker 化與環境建置、MLflow / promptfoo、模型行為監控與 Regression Test、Microservice deployment pipeline |
+| 10 | Invited Talk (Apache Taipei Funder, 「源來適你」Kafka Team)| 3h | Kafka/Iceberg/Airflow (2026/4/29)|
+| 11 | 資料庫系統與向量資料庫 | 3h | Embedding / HNSW / Retrieval、RAG pipeline（chunking → index → rerank）、Retrieval microservice |
 ---
 
 ## 段落四：模型服務與分散式 AI 運算、Agent 系統、安全與可觀測性（12h）
@@ -69,7 +68,7 @@
 |:---:|------|:---:|------|
 | 12 | Agent Workflow、MCP、ADK、Agent-to-Agent 協作、LLM Security、Jailbreak 與 Response Auditing| 3h | Agent 架構（Planner / Tool / Critic）、MCP 工具抽象層與資源管理、ADK / Vertex AI Agent Builder、agent-to-agent workflow |
 | 13 | Observability | 3h | LLM UX / error recovery、延遲優化 / Queue、logs / metrics / distributed tracing、token 成本與效能指標、Online A/B testing |
-| 14 | 分散式 AI Infra 與工作流程 | 6h | Ray tasks / actors、Ray Serve + scaling、多檔案多任務平行 LLM pipeline、Ray Worker microservice |
+| 14 | 分散式 AI Infra 與工作流程 | 3h | Ray tasks / actors、Ray Serve + scaling、多檔案多任務平行 LLM pipeline、Ray Worker microservice |
 | 15 | Invited Talk (IrisGo.AI Starup) | 3h |
 
 ---
