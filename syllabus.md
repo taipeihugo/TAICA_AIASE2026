@@ -56,7 +56,7 @@
 
 | 週次 | 主題 | 時數 | 內容 |
 |:---:|------|:---:|------|
-| 8  (2026/4/15)| Invited Talk (Sowork.AI) | 3h | Marketing + AI
+| 8  (2026/4/15) | Invited Talk (IrisGo.AI Starup) | 3h |
 | 9 | CI/CD、MLOps、LLMOps | 3h | GitHub Actions / GitLab CI、Docker 化與環境建置、MLflow / promptfoo、模型行為監控與 Regression Test、Microservice deployment pipeline |
 | 10 (2026/4/29) | Invited Talk (Apache Taipei Funder, 「源來適你」Kafka Team)| 3h | Kafka/Iceberg/Airflow |
 | 11 | 資料庫系統與向量資料庫 | 3h | Embedding / HNSW / Retrieval、RAG pipeline（chunking → index → rerank）、Retrieval microservice |
@@ -69,7 +69,7 @@
 | 12 | Agent Workflow、MCP、ADK、Agent-to-Agent 協作、LLM Security、Jailbreak 與 Response Auditing| 3h | Agent 架構（Planner / Tool / Critic）、MCP 工具抽象層與資源管理、ADK / Vertex AI Agent Builder、agent-to-agent workflow |
 | 13 | Observability | 3h | LLM UX / error recovery、延遲優化 / Queue、logs / metrics / distributed tracing、token 成本與效能指標、Online A/B testing |
 | 14 | 分散式 AI Infra 與工作流程 | 3h | Ray tasks / actors、Ray Serve + scaling、多檔案多任務平行 LLM pipeline、Ray Worker microservice |
-| 15 | Invited Talk (IrisGo.AI Starup) | 3h |
+| 15 | Invited Talk (Sowork.AI) TBD | 3h | Marketing + AI
 
 ---
 
