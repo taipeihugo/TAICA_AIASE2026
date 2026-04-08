@@ -20,7 +20,8 @@
 ---
 
 ## Announcement
-- 4/15 We invite the sharing from a US-based Startup [IrisGo](https://meet.bnext.com.tw/articles/view/52362?) [booth](415_invitedtalk.png)
+- 4/15 We invite the sharing from a US-based Startup [IrisGo](https://meet.bnext.com.tw/articles/view/52362?) 
+<img src="415_invitedtalk.png" alt="booth" width="200">
 - 4/8 停課一週
 - HW3 公布：Deadline 4/14 23:59 (Phase 1) and 4/21 (Phase 2) - Build Your Personal RAG — From Raw Data to Agent Skill. Details of [HW3](homeworks/HW3.md)
 - We summarize [HW1 result here](https://ktchuang.github.io/TAICA_AIASE2026/homeworks/HW1_result/). Details of each student will be checked and sent to each individual soon.
