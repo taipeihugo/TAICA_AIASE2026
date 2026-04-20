@@ -439,35 +439,40 @@
     </div>
   </section>
 
-  <!-- ===== SECTION 8: HUMAN REVIEW ===== -->
+  <!-- ===== SECTION 8: GRADING TRANSPARENCY ===== -->
   <section class="section anchor" id="human-review">
-    <h2 class="section-title"><span class="icon">🔎</span>人工覆核清單</h2>
+    <h2 class="section-title"><span class="icon">🔎</span>評分透明度</h2>
+
+    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem; line-height: 1.8;">
+      為了讓評分盡量公正，系統會自動標記以下幾種<strong>需要更多判讀</strong>的情境。這些案例的最終分數會經過人工複核後才定案，目的是避免單一模型的偏差或規則判定造成誤判。
+    </p>
 
     <div class="stats-grid" style="margin-bottom:1.5rem;">
       <div class="stat-card stat-red">
         <div class="value">18</div>
-        <div class="label">高分歧</div>
-        <div class="sub">|Sonnet − GPT| ≥ 20</div>
+        <div class="label">兩模型高度分歧</div>
+        <div class="sub">|Sonnet − GPT| ≥ 20 分</div>
       </div>
       <div class="stat-card stat-orange">
         <div class="value">49</div>
-        <div class="label">backward_compat 硬 0</div>
-        <div class="sub">v1/ 逾期改動</div>
+        <div class="label">v1/ 逾期改動</div>
+        <div class="sub">backward_compat 依規定歸 0</div>
       </div>
       <div class="stat-card stat-purple">
         <div class="value">3</div>
-        <div class="label">摘要 fallback</div>
-        <div class="sub">README 缺失</div>
+        <div class="label">README 缺失</div>
+        <div class="sub">退回 sdd_v1 推斷</div>
       </div>
       <div class="stat-card stat-teal">
         <div class="value">60</div>
-        <div class="label">分類分歧</div>
-        <div class="sub">兩模型 chosen_primary 不一致</div>
+        <div class="label">類別判讀分歧</div>
+        <div class="sub">兩模型選出不同 primary</div>
       </div>
     </div>
 
     <div class="alert alert-info">
-      助教只需要打開 <code>_grade_review_index.md</code> 這一個檔案即可完成人工覆核：五個清單（高分歧 / 硬 0 / 摘要 fallback / 缺件 / 分類分歧）都已彙整。覆核完畢後，必要時可直接編輯 <code>scores.jsonl</code>，再重跑 <code>--step report</code> 即可更新全班報告。
+      <strong>為什麼需要兩個模型 + 人工複核？</strong>
+      創新度（innovation）與驚喜度（surprise）這兩個最主觀的面向，本來就容易因模型偏好造成分歧——本屆兩模型總分差中位數約 -7.12 分，主要差異就集中在這兩欄。用「Sonnet 4.6 × GPT-5.4-mini」兩家不同家族的模型做盲評，搭配差距超過 20 分就強制進入人工複核，是為了降低單一模型偏差對你分數的影響。
     </div>
   </section>
 
@@ -552,8 +557,8 @@ rescaled = 60 + (final_raw / 105) × 40</pre>
 
 <footer class="site-footer">
   <p><strong>AIASE2026 HW2 評分分析報告</strong></p>
-  <p>生成時間：2026-04-20T14:20:35.202842+00:00 · 資料來源：grading_output/（scores.jsonl、taxonomy.json、scan_summary.json、summaries.jsonl）</p>
-  <p style="margin-top:0.5rem; opacity:0.8;">原始報告 + 人工覆核清單 + per-student 評分單：<code>ktchuang/AIASE2026-HW2-P2</code>（私有）</p>
+  <p style="margin-top:0.5rem;">本頁呈現全班匿名化統計，不列出個別學生 github_id。個人分數請查看 GitHub Classroom 回饋。</p>
+  <p style="margin-top:0.5rem; opacity:0.8;">生成時間：2026-04-20T14:45:41.020704+00:00</p>
 </footer>
 
 <script>
