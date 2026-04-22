@@ -10,13 +10,13 @@
   },
   "final_scores": {
     "count": 607,
-    "mean": 89.99,
-    "median": 93.05,
-    "std": 8.34,
+    "mean": 90.12,
+    "median": 93.12,
+    "std": 8.29,
     "min": 60.14,
     "max": 96.88,
-    "q25": 90.0,
-    "q75": 94.36,
+    "q25": 90.25,
+    "q75": 94.39,
     "histogram": {
       "labels": [
         "60-62",
@@ -46,19 +46,19 @@
         3,
         2,
         4,
+        3,
+        3,
         4,
-        3,
-        3,
-        3,
+        1,
         9,
-        9,
+        8,
         11,
-        10,
+        9,
         19,
-        43,
-        73,
-        192,
-        177,
+        40,
+        75,
+        193,
+        181,
         14,
         0
       ]
@@ -66,13 +66,13 @@
   },
   "raw_totals": {
     "count": 607,
-    "mean": 78.73,
-    "median": 86.75,
-    "std": 21.88,
+    "mean": 79.06,
+    "median": 86.95,
+    "std": 21.76,
     "min": 0.38,
     "max": 96.8,
-    "q25": 78.75,
-    "q75": 90.2,
+    "q25": 79.4,
+    "q75": 90.28,
     "histogram": {
       "labels": [
         "0-5",
@@ -102,19 +102,19 @@
         3,
         2,
         4,
+        3,
+        3,
         4,
-        3,
-        3,
-        3,
+        1,
         9,
-        9,
+        8,
         11,
-        10,
+        9,
         19,
-        43,
-        73,
-        192,
-        177,
+        40,
+        75,
+        193,
+        181,
         14,
         0
       ]
@@ -123,12 +123,12 @@
   "dimensions": {
     "innovation": {
       "count": 607,
-      "mean": 59.65,
+      "mean": 59.74,
       "median": 63.0,
       "std": 18.69,
       "min": 2.5,
       "max": 90.5,
-      "q25": 53.0,
+      "q25": 52.0,
       "q75": 73.0,
       "histogram": {
         "labels": [
@@ -157,20 +157,20 @@
           12,
           11,
           8,
-          4,
+          5,
           9,
-          8,
-          13,
+          7,
           12,
+          11,
           18,
-          31,
-          41,
-          66,
+          30,
+          45,
+          65,
           84,
-          85,
+          84,
           80,
           76,
-          38,
+          39,
           9,
           2,
           0
@@ -179,9 +179,9 @@
     },
     "sdd_v1_quality": {
       "count": 607,
-      "mean": 75.75,
+      "mean": 75.77,
       "median": 81.0,
-      "std": 19.4,
+      "std": 19.36,
       "min": 0.0,
       "max": 95.0,
       "q25": 76.0,
@@ -220,24 +220,24 @@
           2,
           2,
           7,
-          8,
+          7,
           14,
-          16,
+          17,
           18,
           29,
           126,
-          158,
-          166,
-          29,
+          160,
+          165,
+          28,
           1
         ]
       }
     },
     "detail_completeness": {
       "count": 607,
-      "mean": 70.57,
+      "mean": 70.59,
       "median": 77.0,
-      "std": 19.95,
+      "std": 19.89,
       "min": 0.0,
       "max": 91.5,
       "q25": 68.5,
@@ -271,19 +271,19 @@
           0,
           0,
           3,
-          1,
+          0,
           9,
           4,
           9,
-          15,
+          16,
           12,
-          14,
-          21,
-          52,
-          90,
-          122,
-          138,
-          82,
+          15,
+          20,
+          50,
+          92,
+          123,
+          136,
+          83,
           6,
           0
         ]
@@ -291,9 +291,9 @@
     },
     "req_match": {
       "count": 607,
-      "mean": 81.89,
+      "mean": 82.1,
       "median": 91.0,
-      "std": 24.71,
+      "std": 24.61,
       "min": 0.0,
       "max": 98.0,
       "q25": 85.0,
@@ -330,26 +330,26 @@
           2,
           3,
           0,
-          2,
-          2,
+          1,
+          1,
           3,
-          5,
+          4,
           2,
           5,
-          11,
-          18,
+          10,
+          19,
           47,
-          103,
-          282,
-          77
+          104,
+          286,
+          75
         ]
       }
     },
     "completeness": {
       "count": 607,
-      "mean": 77.48,
+      "mean": 77.57,
       "median": 88.0,
-      "std": 25.08,
+      "std": 25.0,
       "min": 0.0,
       "max": 98.5,
       "q25": 78.0,
@@ -383,29 +383,29 @@
           2,
           0,
           2,
-          3,
+          2,
+          5,
           4,
-          5,
           9,
-          5,
-          7,
+          6,
+          6,
           4,
           14,
           15,
           22,
           30,
-          58,
-          135,
-          231,
+          59,
+          134,
+          232,
           19
         ]
       }
     },
     "backward_compat": {
       "count": 607,
-      "mean": 83.2,
+      "mean": 84.37,
       "median": 92.5,
-      "std": 23.83,
+      "std": 22.66,
       "min": 0.0,
       "max": 97.5,
       "q25": 86.5,
@@ -439,29 +439,29 @@
           0,
           1,
           1,
-          2,
           0,
-          5,
-          6,
-          9,
+          0,
+          0,
+          1,
+          3,
           5,
           4,
-          6,
           7,
           10,
-          16,
-          32,
-          77,
-          195,
+          12,
+          17,
+          37,
+          81,
+          197,
           197
         ]
       }
     },
     "surprise": {
       "count": 607,
-      "mean": 67.79,
+      "mean": 67.88,
       "median": 77.0,
-      "std": 23.06,
+      "std": 22.97,
       "min": 0.0,
       "max": 89.0,
       "q25": 68.0,
@@ -494,19 +494,19 @@
           3,
           2,
           5,
-          7,
+          6,
           9,
           7,
           7,
           4,
           3,
-          8,
-          13,
-          23,
-          28,
+          7,
+          15,
+          21,
+          30,
           68,
-          156,
-          186,
+          155,
+          187,
           39,
           0,
           0
@@ -516,7 +516,7 @@
   },
   "provider_comparison": {
     "total_dual_scored": 607,
-    "flagged_count": 20,
+    "flagged_count": 17,
     "sonnet_totals": {
       "count": 607,
       "mean": 75.55,
@@ -575,12 +575,12 @@
     },
     "gpt_totals": {
       "count": 607,
-      "mean": 81.92,
-      "median": 90.45,
-      "std": 22.72,
+      "mean": 82.56,
+      "median": 90.55,
+      "std": 22.28,
       "min": 0.75,
       "max": 99.3,
-      "q25": 82.1,
+      "q25": 83.85,
       "q75": 94.2,
       "histogram": {
         "labels": [
@@ -611,33 +611,33 @@
           4,
           1,
           5,
-          3,
           0,
-          7,
+          0,
+          6,
+          6,
+          10,
+          5,
           6,
           11,
-          4,
-          6,
-          14,
-          17,
-          26,
-          34,
-          97,
-          209,
-          137,
+          11,
+          28,
+          35,
+          101,
+          214,
+          138,
           0
         ]
       }
     },
     "diffs": {
       "count": 607,
-      "mean": -6.36,
-      "median": -7.15,
-      "std": 7.79,
+      "mean": -7.01,
+      "median": -7.4,
+      "std": 6.6,
       "min": -40.0,
-      "max": 42.15,
-      "q25": -10.3,
-      "q75": -3.4,
+      "max": 34.1,
+      "q25": -10.35,
+      "q75": -3.6,
       "histogram": {
         "labels": [
           "-50--45",
@@ -668,19 +668,19 @@
           3,
           1,
           10,
-          27,
-          127,
-          218,
-          154,
           28,
-          15,
-          8,
-          9,
-          2,
-          2,
+          129,
+          225,
+          158,
+          31,
+          13,
+          3,
+          3,
           1,
           0,
           1,
+          0,
+          0,
           0
         ]
       }
@@ -688,38 +688,38 @@
     "dim_comparison": {
       "innovation": {
         "sonnet_mean": 48.94,
-        "gpt_mean": 70.36,
-        "diff": -21.42
+        "gpt_mean": 70.53,
+        "diff": -21.59
       },
       "sdd_v1_quality": {
         "sonnet_mean": 71.26,
-        "gpt_mean": 80.25,
-        "diff": -8.99
+        "gpt_mean": 80.28,
+        "diff": -9.02
       },
       "detail_completeness": {
         "sonnet_mean": 65.27,
-        "gpt_mean": 75.87,
-        "diff": -10.6
+        "gpt_mean": 75.91,
+        "diff": -10.64
       },
       "req_match": {
         "sonnet_mean": 83.04,
-        "gpt_mean": 80.73,
-        "diff": 2.31
+        "gpt_mean": 81.15,
+        "diff": 1.9
       },
       "completeness": {
         "sonnet_mean": 77.39,
-        "gpt_mean": 77.57,
-        "diff": -0.18
+        "gpt_mean": 77.75,
+        "diff": -0.36
       },
       "backward_compat": {
         "sonnet_mean": 81.08,
-        "gpt_mean": 85.32,
-        "diff": -4.24
+        "gpt_mean": 87.66,
+        "diff": -6.58
       },
       "surprise": {
         "sonnet_mean": 63.46,
-        "gpt_mean": 72.12,
-        "diff": -8.66
+        "gpt_mean": 72.29,
+        "diff": -8.84
       }
     }
   },
@@ -746,32 +746,32 @@
     "category_stats": {
       "dev_tool": {
         "count": 52,
-        "mean": 92.25,
-        "median": 93.49
+        "mean": 92.41,
+        "median": 93.65
       },
       "finance_tool": {
         "count": 159,
-        "mean": 90.29,
-        "median": 92.6
+        "mean": 90.44,
+        "median": 92.63
       },
       "text_analysis": {
         "count": 26,
-        "mean": 91.51,
+        "mean": 91.6,
         "median": 93.89
       },
       "fitness_health": {
         "count": 47,
-        "mean": 92.0,
+        "mean": 92.34,
         "median": 93.66
       },
       "pet_care": {
         "count": 2,
-        "mean": 90.51,
-        "median": 90.51
+        "mean": 92.24,
+        "median": 92.24
       },
       "tasks_manager": {
         "count": 111,
-        "mean": 91.0,
+        "mean": 91.02,
         "median": 92.81
       },
       "game": {
@@ -781,7 +781,7 @@
       },
       "data_converter": {
         "count": 20,
-        "mean": 91.64,
+        "mean": 91.71,
         "median": 92.88
       },
       "uncategorized": {
@@ -791,12 +791,12 @@
       },
       "flashcard": {
         "count": 35,
-        "mean": 91.74,
-        "median": 93.37
+        "mean": 92.01,
+        "median": 93.43
       },
       "domain_specific_tool": {
         "count": 48,
-        "mean": 91.12,
+        "mean": 91.19,
         "median": 93.3
       },
       "media_processing": {
@@ -811,13 +811,13 @@
       },
       "note_taking": {
         "count": 33,
-        "mean": 92.03,
+        "mean": 92.12,
         "median": 93.79
       }
     }
   },
   "distinction": {
-    "high_score_count": 456,
+    "high_score_count": 463,
     "high_surprise_count": 39
   },
   "gate": {
@@ -831,10 +831,10 @@
     "late_v1_commit": 49
   },
   "human_review": {
-    "high_disagreement": 20,
+    "high_disagreement": 17,
     "backward_compat_zero": 49,
     "summarize_fallback": 3,
-    "category_disagreement": 62
+    "category_disagreement": 63
   },
   "rubric": {
     "weights": {
@@ -861,5 +861,5 @@
     "score_b": "gpt-5.4-mini",
     "report_narrative": "claude-opus-4-7"
   },
-  "generated_at": "2026-04-21T17:32:53.980496+00:00"
+  "generated_at": "2026-04-22T14:08:29.170903+00:00"
 }
