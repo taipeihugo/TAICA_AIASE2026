@@ -75,6 +75,7 @@ ___
 | W5 | [Practice of Agentic Coding](W5.md) — SDLC 劇變與多代理協調、AGENTS.md 與 Context Engineering、Skill vs. Sub-Agent 架構決策、可驗證性分界線（Karpathy）、Harness Engineering 三大支柱、Claude Code 六組件實戰、RPI 工作流與 No Vibes Allowed、AI 輔助學習的成效陷阱 |
 | W6 | [Agentic Engineering and RAG](W6.md)
 | W7 | [Agentic Stack : Inter- and Intra-Connectivity](W7.md)
+| W8 | [Token Economy and API Cost Control] (W8.md)
 ---
 
 ## 課程要求
